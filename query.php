@@ -1,5 +1,4 @@
 <?
-$sql="";
 if((isset($_POST["book"]) && $_POST["book"]!="")OR (isset($_POST["author"]) && $_POST["author"]!="") OR (isset($_POST["price"]) && $_POST["price"]!="")){
 	$book = $_POST["book"];
 	$author = $_POST["author"];
